@@ -9,7 +9,6 @@ router.get('/cars', (request, response) => {
 })
 
 router.post('/availability', (request, response) => {
-  console.log(request);
   response.send(availability);
 })
 

@@ -1,4 +1,7 @@
 import { Router } from 'express';
+import pick from 'lodash/pick';
+import sortBy from 'lodash/sortBy';
+import merge from 'lodash/merge';
 import axios from 'axios';
 import Config from 'config/config-server'
 
@@ -19,11 +22,29 @@ router.get('/', (request, response) => {
     );
 })
 
+
+const getAvailabilityStatus = async ({ carsList }) => {
+  const idList = carsList.map(function(car) {
+    return pick(car, ['id']);
+  });
+  return axios.post(Config.API_GET_AVAILABILITY, 
+    JSON.stringify(idList)).then((sucessResponse) => {
+      const availabilityList = sortBy(sucessResponse.data.availability, ['id']);
+      const sortedCarsList = sortBy(carsList, ['id']);
+      const mergedList = merge(sortedCarsList, availabilityList);
+      return mergedList;
+    }
+  ).catch((err) => {
+      throw err;
+  });
+}
+
 router.get('/cars', (request, response) => {
-  console.log(Config.API_GET_CARS);
   axios.get(Config.API_GET_CARS).then((sucessResponse) => {
     try {
-      response.status(200).send(JSON.stringify(sucessResponse.data));
+      getAvailabilityStatus(sucessResponse.data).then((resolvedData) => {
+        response.status(200).send(JSON.stringify(resolvedData));
+      });
     } catch(err) {
       response.status(500).send(err);
     }
@@ -31,5 +52,7 @@ router.get('/cars', (request, response) => {
     response.status(500).send(err);
   });
 });
+
+
 
 export default router;

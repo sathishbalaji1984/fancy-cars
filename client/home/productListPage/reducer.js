@@ -14,7 +14,7 @@ const sortCarList = list => sortBy(list, ['name', function (item) {
 export default (state = defaultState, action) => {
   switch (action.type) {
     case RESOLVED_CARS_LIST: {
-      const carsList = sortCarList(action.payload.carsList);
+      const carsList = sortCarList(action.payload);
       return {
         carsList: [...carsList],
       };

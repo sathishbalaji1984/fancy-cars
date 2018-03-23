@@ -6,8 +6,7 @@
       "name": "Audi",
       "make": "Audi",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product2",
@@ -15,8 +14,7 @@
       "name": "Audi",
       "make": "Audi",
       "model": "EX",
-      "year": "2017",
-      "stockStatus": "Out of Stock"
+      "year": "2017"
     },
     {
       "id": "product3",
@@ -24,8 +22,7 @@
       "name": "Audi",
       "make": "Audi",
       "model": "EX",
-      "year": "2016",
-      "stockStatus": "Unavailable"
+      "year": "2016"
     },
     {
       "id": "product4",
@@ -33,8 +30,7 @@
       "name": "Honda 2018",
       "make": "Honda",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product5",
@@ -42,8 +38,7 @@
       "name": "Tesla 2018",
       "make": "Tesla",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "Unavailable"
+      "year": "2018"
     },
     {
       "id": "product6",
@@ -51,8 +46,7 @@
       "name": "TATA 2018",
       "make": "TATA",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product7",
@@ -60,8 +54,7 @@
       "name": "Lamborghini 2018",
       "make": "Lamborghini",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product8",
@@ -69,8 +62,7 @@
       "name": "Saleen 2018",
       "make": "Saleen",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product9",
@@ -78,8 +70,7 @@
       "name": "Jaguar 2018",
       "make": "Jaguar",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "In DealerShip"
+      "year": "2018"
     },
     {
       "id": "product10",
@@ -87,8 +78,7 @@
       "name": "Bentley 2018",
       "make": "Bentley",
       "model": "EX",
-      "year": "2018",
-      "stockStatus": "Out of Stock"
+      "year": "2018"
     }
   ]
 }
