@@ -1,0 +1,13 @@
+.add-to-cart {
+  width: 60%;
+  height: 35px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .add-to-cart {
+    width: 100%;
+  }
+}

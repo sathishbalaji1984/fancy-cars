@@ -1,0 +1,44 @@
+{
+  "availability": [
+    {
+      "id": "product1",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product2",
+      "stockStatus": "Out of Stock"
+    },
+    {
+      "id": "product3",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product4",
+      "stockStatus": "Unavailable"
+    },
+    {
+      "id": "product5",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product6",
+      "stockStatus": "Out of Stock"
+    },
+    {
+      "id": "product7",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product8",
+      "stockStatus": "Unavailable"
+    },
+    {
+      "id": "product9",
+      "stockStatus": "Out of Stock"
+    },
+    {
+      "id": "product10",
+      "stockStatus": "In DealerShip"
+    }
+  ]
+}

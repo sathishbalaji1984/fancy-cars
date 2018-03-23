@@ -1,0 +1,26 @@
+.product {
+  width: 33%;
+  float: left;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.add-to-cart-container{
+  height: 40px;
+}
+
+.product-details{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .product {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 768px) {
+  .product {
+    width: 50%;
+  }
+}

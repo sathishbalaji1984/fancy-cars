@@ -1,0 +1,94 @@
+{
+  "carsList" : [
+    {
+      "id": "product1",
+      "img": "product1.jpg",
+      "name": "Audi",
+      "make": "Audi",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product2",
+      "img": "product2.jpg",
+      "name": "Audi",
+      "make": "Audi",
+      "model": "EX",
+      "year": "2017",
+      "stockStatus": "Out of Stock"
+    },
+    {
+      "id": "product3",
+      "img": "product3.jpg",
+      "name": "Audi",
+      "make": "Audi",
+      "model": "EX",
+      "year": "2016",
+      "stockStatus": "Unavailable"
+    },
+    {
+      "id": "product4",
+      "img": "product4.jpg",
+      "name": "Honda 2018",
+      "make": "Honda",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product5",
+      "img": "product5.jpg",
+      "name": "Tesla 2018",
+      "make": "Tesla",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "Unavailable"
+    },
+    {
+      "id": "product6",
+      "img": "product6.jpg",
+      "name": "TATA 2018",
+      "make": "TATA",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product7",
+      "img": "product7.jpg",
+      "name": "Lamborghini 2018",
+      "make": "Lamborghini",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product8",
+      "img": "product8.jpg",
+      "name": "Saleen 2018",
+      "make": "Saleen",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product9",
+      "img": "product9.jpg",
+      "name": "Jaguar 2018",
+      "make": "Jaguar",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "In DealerShip"
+    },
+    {
+      "id": "product10",
+      "img": "product10.jpg",
+      "name": "Bentley 2018",
+      "make": "Bentley",
+      "model": "EX",
+      "year": "2018",
+      "stockStatus": "Out of Stock"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+.add-to-cart {
+  width: 60%;
+  height: 35px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .add-to-cart {
+    width: 100%;
+  }
+}
+.product {
+  width: 33%;
+  float: left;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.add-to-cart-container{
+  height: 40px;
+}
+
+.product-details{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .product {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 768px) {
+  .product {
+    width: 50%;
+  }
+}
+.list-container {
+  width: 100%;
+}
+
+.list-page {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .list-page {
+    max-width: 400px;
+  }
+}
+.header {
+  height: 80px;
+  margin: 0 20px 20px;
+  color: #fff;
+  background-color: #000
+}
+
+.logo {
+  font-size: 30px;
+  line-height: 80px;
+  padding-left: 10px;
+}
+
+.footer {
+  height: 40px;
+  margin: 20px 20px 0 20px;
+  color: #827f7f;
+  background-color: #000;
+  text-align: center;
+}
+
+.copy {
+  font-size: 9px;
+  line-height: 40px;
+}
+
+.app {
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  margin: 0px;
+}
+

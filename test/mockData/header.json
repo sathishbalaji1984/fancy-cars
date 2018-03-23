@@ -1,0 +1,24 @@
+{
+  "silos": [
+    {
+      "id": "Home",
+      "name": "Home"
+    },
+    {
+      "id": "About",
+      "name": "About"
+    },
+    {
+      "id": "Find a car",
+      "name": "Find a car"
+    },
+    {
+      "id": "Dealers",
+      "name": "Dealers"
+    },
+    {
+      "id": "Contacts",
+      "name": "Contacts"
+    }
+  ]
+}
