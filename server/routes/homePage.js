@@ -21,8 +21,12 @@ router.get('/', (request, response) => {
 
 router.get('/cars', (request, response) => {
   console.log(Config.API_GET_CARS);
-  axios.get(Config.API_GET_CARS).then((data) => {
-    response.status(200).send(JSON.stringify(data.data));
+  axios.get(Config.API_GET_CARS).then((sucessResponse) => {
+    try {
+      response.status(200).send(JSON.stringify(sucessResponse.data));
+    } catch(err) {
+      response.status(500).send(err);
+    }
   }).catch((err) => {
     response.status(500).send(err);
   });

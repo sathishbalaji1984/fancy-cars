@@ -1,7 +1,8 @@
 import path from 'path';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
-
+import UglifyJsPlugin from 'uglifyjs-webpack-plugin';
+import CompressionPlugin from 'compression-webpack-plugin';
 
 module.exports = {
   resolve: {
@@ -56,5 +57,13 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'client/assets/images', to: 'client/images' },
     ]),
+    new UglifyJsPlugin(),
+    new CompressionPlugin({
+      asset: "[path].gz[query]",
+      algorithm: "gzip",
+      test: /\.js$|\.css$|\.html$/,
+      threshold: 10240,
+      minRatio: 0.8
+    }),
   ],
 };

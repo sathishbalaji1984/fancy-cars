@@ -3,6 +3,11 @@ import router from './routes/homePage'
 
 const port = 8000;
 const app = express();
+app.get('*.js', function (req, res, next) {
+    req.url = req.url + '.gz';
+    res.set('Content-Encoding', 'gzip');
+    next();
+});
 app.use('/assets', express.static('dist/client', { fallthrough: false }));
 app.use('/', router);
 
